@@ -5,13 +5,34 @@
 }
 html, body {
     background-color: aliceblue;
+    padding: 2em;
 }
 button {
     cursor: pointer;
     padding: 10px 30px;
     border-radius: 5px;
 }
-
+.center {
+    width: 400px;
+    height: 300px;
+    border: 2px solid seagreen;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+}
+#position {
+    margin-top: 2em;
+    
+}
+#toggle-id {
+    margin-top: 1.5em;
+  
+    text-align: center;
+    border: 1px solid steelblue;
+}
 /********* js classes css  ***************/
 .classOne {
     width: 400px;
@@ -31,6 +52,13 @@ button {
     border: 1px solid sandybrown;
     text-align: center;
     align-items: center;
-  
+}
 
+.toggleClass {
+    color: #fff;
+    width: 400px;
+    height: 100px;
+    line-height: 100px;
+    background: steelblue;
+    transition: .5s ease;
 }
