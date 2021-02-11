@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    background-color: aliceblue;
+}
+button {
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+/********* js classes css  ***************/
+.classOne {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.classTwo {
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    justify-content: center;
+
+}
+.classThird {
+    border: 1px solid sandybrown;
+    text-align: center;
+    align-items: center;
+  
+
+}
